@@ -41,7 +41,7 @@ const App = () => {
       setTypeOfResult(infoList[0].name);
       setTypeOfDesc(infoList[0].desc);
     } else {
-      setTypeOfResult("당신은 등신입니다.");
+      setTypeOfResult("!");
     }
   };
 
